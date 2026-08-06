@@ -1,0 +1,13 @@
+# This file is used to override language statistics
+
+# Project-specific overrides
+docs/index.html linguist-vendored
+vendor/* linguist-vendored
+
+*.map linguist-generated
+yarn.lock linguist-generated
+build/* linguist-vendored
+*.ts linguist-detectable
+*.min.js linguist-generated
+
+docs/*.html linguist-vendored
